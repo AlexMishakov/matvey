@@ -6,3 +6,9 @@
 50
 1 4 9 16 25 36 49
 """
+n = int(input())
+a = 1
+while a*a <= n:
+    print(a*a)
+    a = a+1
+
