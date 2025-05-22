@@ -10,3 +10,10 @@
 10 14 50 25 17 0
 2
 """
+n = int(input())
+a = 0
+while n != 0:
+    if n % 5 == 0 and n % 2 == 0:
+        a = a + 1
+    n = int(input())
+print(a)
